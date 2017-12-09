@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 5b23ffad6c3219546b6a5531f6b28414
+timeCreated: 1512833405
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gina_Body
+    100004: Gina_Eye_L
+    100006: Gina_Eye_R
+    100008: Gina_Mane
+    100010: Cube.038
+    100012: Gina_RIG
+    100014: hips
+    100016: root
+    100018: root.001
+    100020: root.001_end
+    100022: root.002
+    100024: root.002_end
+    100026: root.003
+    100028: root.003_end
+    100030: root_L.002
+    100032: root_L.003
+    100034: root_L.004
+    100036: root_L.004_end
+    100038: root_L.005
+    100040: root_L.006
+    100042: root_L.007
+    100044: root_L.007_end
+    100046: root_L.008
+    100048: root_L.008_end
+    100050: root_R.002
+    100052: root_R.003
+    100054: root_R.004
+    100056: root_R.004_end
+    100058: root_R.005
+    100060: root_R.006
+    100062: root_R.007
+    100064: root_R.007_end
+    100066: root_R.008
+    100068: root_R.008_end
+    100070: spine.004
+    100072: spine.004_end
+    100074: spine.005
+    100076: spine.005_end
+    100078: spine.006
+    100080: spine.006_end
+    100082: spine.007
+    100084: spine.007_end
+    100086: spine.008
+    100088: spine.008_end
+    100090: spine.01
+    100092: spine.02
+    100094: spine.03
+    100096: back_lower_leg.L
+    100098: back_lower_leg.R
+    100100: back_toe.L
+    100102: back_toe.L_end
+    100104: back_toe.R
+    100106: back_toe.R_end
+    100108: back_upper_leg.L
+    100110: back_upper_leg.R
+    100112: eye.L
+    100114: eye.L_end
+    100116: eye.R
+    100118: eye.R_end
+    100120: eyelid_lower.L
+    100122: eyelid_lower.L_end
+    100124: eyelid_lower.R
+    100126: eyelid_lower.R_end
+    100128: eyelid_upper.L
+    100130: eyelid_upper.L_end
+    100132: eyelid_upper.R
+    100134: eyelid_upper.R_end
+    100136: front_lower_leg.L
+    100138: front_lower_leg.R
+    100140: front_toe.L
+    100142: front_toe.L_end
+    100144: front_toe.R
+    100146: front_toe.R_end
+    100148: front_upper_leg.L
+    100150: front_upper_leg.R
+    100152: mane.01
+    100154: mane.01_end
+    100156: mane.02
+    100158: mane.02_end
+    100160: mane.03
+    100162: mane.03_end
+    100164: mane.04
+    100166: mane.04_end
+    100168: mane.05
+    100170: mane.05_end
+    100172: mouth.L
+    100174: mouth.L_end
+    100176: mouth.R
+    100178: mouth.R_end
+    100180: mouth_lower
+    100182: mouth_lower_end
+    400000: //RootNode
+    400002: Gina_Body
+    400004: Gina_Eye_L
+    400006: Gina_Eye_R
+    400008: Gina_Mane
+    400010: Cube.038
+    400012: Gina_RIG
+    400014: hips
+    400016: root
+    400018: root.001
+    400020: root.001_end
+    400022: root.002
+    400024: root.002_end
+    400026: root.003
+    400028: root.003_end
+    400030: root_L.002
+    400032: root_L.003
+    400034: root_L.004
+    400036: root_L.004_end
+    400038: root_L.005
+    400040: root_L.006
+    400042: root_L.007
+    400044: root_L.007_end
+    400046: root_L.008
+    400048: root_L.008_end
+    400050: root_R.002
+    400052: root_R.003
+    400054: root_R.004
+    400056: root_R.004_end
+    400058: root_R.005
+    400060: root_R.006
+    400062: root_R.007
+    400064: root_R.007_end
+    400066: root_R.008
+    400068: root_R.008_end
+    400070: spine.004
+    400072: spine.004_end
+    400074: spine.005
+    400076: spine.005_end
+    400078: spine.006
+    400080: spine.006_end
+    400082: spine.007
+    400084: spine.007_end
+    400086: spine.008
+    400088: spine.008_end
+    400090: spine.01
+    400092: spine.02
+    400094: spine.03
+    400096: back_lower_leg.L
+    400098: back_lower_leg.R
+    400100: back_toe.L
+    400102: back_toe.L_end
+    400104: back_toe.R
+    400106: back_toe.R_end
+    400108: back_upper_leg.L
+    400110: back_upper_leg.R
+    400112: eye.L
+    400114: eye.L_end
+    400116: eye.R
+    400118: eye.R_end
+    400120: eyelid_lower.L
+    400122: eyelid_lower.L_end
+    400124: eyelid_lower.R
+    400126: eyelid_lower.R_end
+    400128: eyelid_upper.L
+    400130: eyelid_upper.L_end
+    400132: eyelid_upper.R
+    400134: eyelid_upper.R_end
+    400136: front_lower_leg.L
+    400138: front_lower_leg.R
+    400140: front_toe.L
+    400142: front_toe.L_end
+    400144: front_toe.R
+    400146: front_toe.R_end
+    400148: front_upper_leg.L
+    400150: front_upper_leg.R
+    400152: mane.01
+    400154: mane.01_end
+    400156: mane.02
+    400158: mane.02_end
+    400160: mane.03
+    400162: mane.03_end
+    400164: mane.04
+    400166: mane.04_end
+    400168: mane.05
+    400170: mane.05_end
+    400172: mouth.L
+    400174: mouth.L_end
+    400176: mouth.R
+    400178: mouth.R_end
+    400180: mouth_lower
+    400182: mouth_lower_end
+    2300000: Gina_Body
+    2300002: Gina_Eye_L
+    2300004: Gina_Eye_R
+    2300006: Gina_Mane
+    2300008: Cube.038
+    3300000: Gina_Body
+    3300002: Gina_Eye_L
+    3300004: Gina_Eye_R
+    3300006: Gina_Mane
+    3300008: Cube.038
+    4300000: Gina_Eye_L
+    4300002: Gina_Eye_R
+    4300004: Gina_Mane
+    4300006: Gina_Body
+    4300008: Cube.038
+    7400000: Gina_RIG|Idle_Happy
+    7400002: Gina_RIG|Idle_Sad
+    7400004: Gina_RIG|Petting
+    9500000: //RootNode
+    13700000: Gina_Body
+    13700002: Gina_Eye_L
+    13700004: Gina_Eye_R
+    13700006: Gina_Mane
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gina_Body
+    second: {fileID: 2100000, guid: ee7ae5e0838c70d419895399da72c4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gina_Eye
+    second: {fileID: 2100000, guid: b8a3b37d17c550043aa9718481403b32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gina_Mane
+    second: {fileID: 2100000, guid: 3a360b3b3ad61574cb8f39bd78793b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mane
+    second: {fileID: 2100000, guid: edb97adabe6bd1b4fa12f1519e4c9d94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 37098547c29e33c40b7f5fbb332afbc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 250e0149debed004a86f09ca191c0997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: b3fe1005497e30944b7fdaca3e0a9215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7ac6c62ed6573ed45bc53d8a995ef01b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
