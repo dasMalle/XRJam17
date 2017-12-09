@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f09effe9db3dd4e9e825475d698ca3, type: 3}
+  m_Name: Part_03_BuildingStack
+  m_EditorClassIdentifier: 
+  MeshModifiers:
+  - {fileID: 11400000, guid: 7d9c7b9703bbd4a33ab2e2de171310c2, type: 2}
+  - {fileID: 11400000, guid: ae430dcaf6a92475dbb9a811ae1637e5, type: 2}
+  - {fileID: 11400000, guid: b2bd614710b814ad0b7a31a69df9a78a, type: 2}
+  - {fileID: 11400000, guid: b73a1f22ff5ca4f4db35e90b851a9de6, type: 2}
+  GoModifiers:
+  - {fileID: 11400000, guid: 83b841cf24f39476b99450ab97253378, type: 2}
