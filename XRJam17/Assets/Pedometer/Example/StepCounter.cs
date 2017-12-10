@@ -12,31 +12,31 @@ namespace PedometerU.Tests {
 
         public Text stepText;
         private Pedometer pedometer;
-        GameFlowManager gfm;
         public int MinWalkSteps = 25;
+        float curSteps;
 
         private void Start () {
             // Create a new pedometer
             pedometer = new Pedometer(OnStep);
             // Reset UI
             OnStep(0, 0);
-            gfm = GameFlowManager.instance;
         }
 
         private void OnStep (int steps, double distance) {
-            // Display the values // Distance in feet
-            stepText.text = steps.ToString();
-           // distanceText.text = (distance * 3.28084).ToString("F2") + " ft";
-            if(steps> MinWalkSteps)
-            {
-                gfm.EnableButtons();
-            }
+             // Display the values // Distance in feet
+                stepText.text = steps.ToString();
+                // distanceText.text = (distance * 3.28084).ToString("F2") + " ft";  
+           
+
+
+
         }
 
         private void OnDisable () {
             // Release the pedometer
             pedometer.Dispose();
             pedometer = null;
+            stepText.enabled = false;
         }
 
 

@@ -12,6 +12,20 @@ public class GameFlowManager : MonoBehaviour {
     public GameObject pet;
     public GameObject back;
 
+    public Text Steps; //Geez sort this!
+
+
+    public enum GameScreens
+    {
+        MainScreen = 0, 
+        PetScreen = 1, 
+        WalkScreen = 2,
+        SingScreen = 3
+
+    }
+
+    public GameScreens ScreenState;
+
     public static GameFlowManager instance = null; 
 
     // Use this for initialization
@@ -19,12 +33,44 @@ public class GameFlowManager : MonoBehaviour {
         anim.SetBool("Petting", false);
         anim.SetBool("Happy", false);
         instance = this;
+
+        ScreenState = GameScreens.MainScreen;
 	}
 	
+
+    void Update(){
+        switch(ScreenState){
+            case GameScreens.MainScreen:
+                EnableButtons();
+                Steps.color = Color.clear;
+                break;
+            case GameScreens.PetScreen:
+                Petting();
+                DisableButtons();
+                Steps.color = Color.clear;
+                break;
+            case GameScreens.SingScreen:
+                Sing();
+                DisableButtons();
+                Steps.color = Color.clear;
+                break;
+            case GameScreens.WalkScreen:
+                Walking();
+                DisableButtons();
+                Steps.color = Color.blue;
+                break;
+        }
+    }
+
+    public void SetScreen(int screen)
+    {
+        ScreenState = (GameScreens)screen;
+    }
+
 	void OnPetting()
     {
         anim.SetBool("Petting", true);
-        anim.SetBool("Happy", false);
+        anim.SetBool("Happy", true);//set on false when petting animation is in
     }
 
     void OnHappy()
@@ -46,31 +92,31 @@ public class GameFlowManager : MonoBehaviour {
         back.SetActive(true);
     }
 
-    public void Walking()
+     void Walking()
     {
         OnHappy();
         DisableButtons();
+
     }
 
-    public void Petting()
+    private void Petting()
     {
         OnPetting();
         DisableButtons();
-        //add sounds and a mechanic
-        Handheld.Vibrate();
     }
 
-    public void Sing()
+     void Sing()
     {
         OnHappy();
         DisableButtons();
         //Insert microphone stuff
     }
 
-    public void EnableButtons(){
+    void EnableButtons(){
         sing.SetActive(true);
         walk.SetActive(true);
         pet.SetActive(true);
         back.SetActive(false);
+        OnSad();
     }
 }
