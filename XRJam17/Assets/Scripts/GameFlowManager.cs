@@ -13,6 +13,7 @@ public class GameFlowManager : MonoBehaviour {
     public GameObject back;
 
     public Text Steps; //Geez sort this!
+    public AudioRecorder rec;
 
 
     public enum GameScreens
@@ -70,7 +71,7 @@ public class GameFlowManager : MonoBehaviour {
 	void OnPetting()
     {
         anim.SetBool("Petting", true);
-        anim.SetBool("Happy", true);//set on false when petting animation is in
+        anim.SetBool("Happy", false);
     }
 
     void OnHappy()
@@ -110,8 +111,11 @@ public class GameFlowManager : MonoBehaviour {
         OnHappy();
         DisableButtons();
         //Insert microphone stuff
-    }
+        rec.StartRecording();
 
+
+    }
+    //this is the back button
     void EnableButtons(){
         sing.SetActive(true);
         walk.SetActive(true);

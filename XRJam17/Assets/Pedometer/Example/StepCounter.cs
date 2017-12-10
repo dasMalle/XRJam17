@@ -12,8 +12,6 @@ namespace PedometerU.Tests {
 
         public Text stepText;
         private Pedometer pedometer;
-        public int MinWalkSteps = 25;
-        float curSteps;
 
         private void Start () {
             // Create a new pedometer
@@ -26,10 +24,6 @@ namespace PedometerU.Tests {
              // Display the values // Distance in feet
                 stepText.text = steps.ToString();
                 // distanceText.text = (distance * 3.28084).ToString("F2") + " ft";  
-           
-
-
-
         }
 
         private void OnDisable () {
