@@ -7,9 +7,10 @@ public class GameFlowManager : MonoBehaviour {
 
     public Animator anim;
 
-    public Button sing;
-    public Button walk;
-    public Button pet;
+    public GameObject sing;
+    public GameObject walk;
+    public GameObject pet;
+    public GameObject back;
 
     public static GameFlowManager instance = null; 
 
@@ -39,9 +40,10 @@ public class GameFlowManager : MonoBehaviour {
 
     void DisableButtons()
     {
-        sing.enabled = false;
-        walk.enabled = false;
-        pet.enabled = false;
+        sing.SetActive(false);
+        walk.SetActive(false);
+        pet.SetActive(false);
+        back.SetActive(true);
     }
 
     public void Walking()
@@ -55,6 +57,7 @@ public class GameFlowManager : MonoBehaviour {
         OnPetting();
         DisableButtons();
         //add sounds and a mechanic
+        Handheld.Vibrate();
     }
 
     public void Sing()
@@ -65,8 +68,9 @@ public class GameFlowManager : MonoBehaviour {
     }
 
     public void EnableButtons(){
-        sing.enabled = true;
-        walk.enabled = true;
-        pet.enabled = true;
+        sing.SetActive(true);
+        walk.SetActive(true);
+        pet.SetActive(true);
+        back.SetActive(false);
     }
 }
