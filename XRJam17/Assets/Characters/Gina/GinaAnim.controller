@@ -13,13 +13,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Happy
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -135,7 +135,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Gina_RIG|Petting
+  m_Name: Petting
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -161,7 +161,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Gina_RIG|Idle_Happy
+  m_Name: Idle_Happy
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -187,7 +187,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Gina_RIG|Idle_Sad
+  m_Name: Idle_Sad
   m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions:
@@ -218,13 +218,13 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102527286390819408}
-    m_Position: {x: 336, y: 156, z: 0}
+    m_Position: {x: 288, y: 168, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102696850336988012}
     m_Position: {x: 288, y: 72, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102309336136790748}
-    m_Position: {x: 192, y: -12, z: 0}
+    m_Position: {x: 288, y: -12, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
